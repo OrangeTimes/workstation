@@ -10,7 +10,7 @@
             "cache_duration": "none"
           },
           "leading_diamond": "\ue0b6",
-          "template": "<f size='2.0'>{{ .Icon }}</f> <b>{{ .HostName }}</> ",
+          "template": "<f size='2.0'>{{ .Icon }}</f> <b>{{ .HostName }}</>",
           "foreground": "#00885A",
           "background": "#003543",
           "type": "os",
