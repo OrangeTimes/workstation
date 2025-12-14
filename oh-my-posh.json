@@ -6,7 +6,7 @@
       "alignment": "left",
       "segments": [
         {
-          "properties": {
+          "options": {
             "cache_duration": "none"
           },
           "leading_diamond": "\ue0b6",
@@ -17,11 +17,11 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "folder_icon": "\uf115",
             "folder_separator_icon": "\\",
-            "home_icon": "\uf7db",
+            "home_icon": "🏠",
             "style": "full"
           },
           "template": " <#000000><b><f size='1.5'>\uf07b \uf553</f></b></> <b>{{ .Path }}</b> ",
@@ -32,7 +32,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "branch_icon": " <#ffffff><f size='1.2'>\ue0a0</f> </>",
             "cache_duration": "none",
             "fetch_stash_count": true,
@@ -47,7 +47,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none"
           },
           "template": " <b><f size='2.0'>\ue718</f></b> {{ if .PackageManagerIcon }}<b>{{ .PackageManagerIcon }}</b> {{ end }}<b>{{ .Full }}</b> ",
@@ -58,7 +58,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "always_enabled": true,
             "cache_duration": "none"
           },
@@ -70,7 +70,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "time_format": "15:04:05"
           },
@@ -82,7 +82,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "display_mode": "always",
             "home_enabled": true
@@ -95,7 +95,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "display_mode": "always",
             "home_enabled": true
@@ -109,7 +109,7 @@
         },
        
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "display_mode": "always",
             "home_enabled": true
@@ -122,7 +122,7 @@
           "style": "powerline"
         },
         {
-          "properties": {
+          "options": {
             "always_enabled": true,
             "cache_duration": "none"
           },
@@ -144,7 +144,7 @@
       "alignment": "left",
       "segments": [
         {
-          "properties": {
+          "options": {
             "cache_duration": "none"
           },
           "template": "<b><f size='1.3'>\ue3bf</f></b> ",
@@ -153,7 +153,7 @@
           "style": "plain"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none",
             "display_version": true
           },
@@ -163,7 +163,7 @@
           "style": "plain"
         },
         {
-          "properties": {
+          "options": {
             "cache_duration": "none"
           },
           "template": " | <#FF69B4><b>{{ .UserName }}</b></> <f size='1.2'>\uf597</f> <#26C6DA><b><f size='1.2'>❯</f></b></><#45F1C2><b><f size='1.2'>❯</f></b></>",
