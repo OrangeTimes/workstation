@@ -7,7 +7,7 @@
       "segments": [
         {
           "options": {
-            "cache_duration": "none"
+
           },
           "leading_diamond": "\ue0b6",
           "template": "<f size='2.0'>{{ .Icon }}</f> <b>{{ .HostName }}</>",
@@ -18,7 +18,7 @@
         },
         {
           "options": {
-            "cache_duration": "none",
+
             "folder_icon": "\uf115",
             "folder_separator_icon": "\\",
             "home_icon": "🏠",
@@ -34,8 +34,6 @@
         {
           "options": {
             "branch_icon": " <#ffffff><f size='1.2'>\ue0a0</f> </>",
-            "cache_duration": "none",
-            "fetch_stash_count": true,
             "fetch_status": false,
             "fetch_upstream_icon": true
           },
@@ -59,8 +57,7 @@
         },
         {
           "options": {
-            "always_enabled": true,
-            "cache_duration": "none"
+            "always_enabled": true
           },
           "template": " <b><f size='1.2'>\ufbab</f> {{ .FormattedMs }}</b> ",
           "foreground": "#000000",
@@ -71,7 +68,6 @@
         },
         {
           "options": {
-            "cache_duration": "none",
             "time_format": "15:04:05"
           },
           "template": " \uf017 {{ .CurrentDate | date .Format }} ",
@@ -83,7 +79,6 @@
         },
         {
           "options": {
-            "cache_duration": "none",
             "display_mode": "always",
             "home_enabled": true
           },
@@ -154,8 +149,7 @@
         },
         {
           "options": {
-            "cache_duration": "none",
-            "display_version": true
+
           },
           "template": " <#FFD700><b><f size='1.2'>⚡</f></b></><#45F1C2>{{ .Name }} • {{ if .Version }}{{ .Version }}{{ end }}</>",
           "foreground": "#45F1C2",
