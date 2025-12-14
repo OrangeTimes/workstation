@@ -27,6 +27,7 @@
           "template": " <fg=#000000><b><f size='1.5'>\uf07b \uf553</f></b></> <b>{{ .Path }}</b> ",
           "foreground": "#ffffff",
           "powerline_symbol": "",
+          "powerline_symbol_color": "#ffffff",
           "background": "#DA627D",
           "type": "path",
           "style": "powerline"
