@@ -20,11 +20,11 @@
           "options": {
 
             "folder_icon": "\uf115",
-            "folder_separator_icon": "\\",
-            "home_icon": "🏠",
+            "folder_separator_icon": "/",
+            "home_icon": "\uf7db",
             "style": "full"
           },
-          "template": " <#000000><b><f size='1.5'>\uf07b \uf553</f></b></> <b>{{ .Path }}</b> ",
+          "template": " <fg=#000000><b><f size='1.5'>\uf07b \uf553</f></b></> <b>{{ .Path }}</b> ",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "background": "#DA627D",
