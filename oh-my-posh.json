@@ -29,7 +29,7 @@
           "powerline_symbol": "\ue0b0",
           "background": "#DA627D",
           "type": "path",
-          "style": "diamond"
+          "style": "powerline"
         },
         {
           "options": {
